@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Logo + Brand */}
         <div className="flex flex-col items-center md:items-start space-y-3">
           
-          <h2 className="text-xl font-bold text-[#FFD60A]">Pizza Online</h2>
+          <h2 className="text-xl font-bold text-[#FFD60A]"><span className="text-[#E63946]">Pizza</span> Online</h2>
           <p className="text-sm text-gray-400">
             Hot & fresh pizza delivered to your door in Burewala 🍕
           </p>
