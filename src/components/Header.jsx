@@ -29,9 +29,9 @@ export default function Header() {
           <Link to="/" className="hover:text-[#E63946] transition">
             Home
           </Link>
-          <Link to="/menu" className="hover:text-[#E63946] transition">
+          <a href="/menu" className="hover:text-[#E63946] transition">
             Menu
-          </Link>
+          </a>
           <HashLink smooth to="/#deals" className="hover:text-[#E63946] transition">
             Deals
           </HashLink>

@@ -22,18 +22,22 @@ export default function Hero() {
             Order now and enjoy free delivery!
           </p>
           <div className="flex justify-center md:justify-start">
+           <a
+    href={`https://api.whatsapp.com/send?phone=923292009999&text=${encodeURIComponent(
+      "Hi, I want to order a pizza 🍕"
+    )}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#E63946] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#FFD60A] hover:text-black transition"
+  >
+    Order Now
+  </a>
             <a
-              href="#menu"
-              className="bg-[#E63946] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#FFD60A] hover:text-black transition"
-            >
-              Order Now
-            </a>
-            <Link
-  to="/menu"
+  href="/menu"
   className="ml-4 border-2 border-[#E63946] text-[#E63946] px-6 py-3 rounded-full font-semibold hover:bg-[#FFD60A] hover:border-[#FFD60A] hover:text-black transition"
 >
   View Menu
-</Link>
+</a>
 
           </div>
         </div>

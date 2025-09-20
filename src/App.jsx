@@ -1,8 +1,7 @@
 import Layout from "./components/Layout";
 import Hero from "./pages/Home";
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
-import Products from "./pages/Menu"
-import ScrollTop from "./components/Scrolltop";
+import Products from "./pages/Menu";
 
 const router=createBrowserRouter([
 
@@ -11,7 +10,6 @@ const router=createBrowserRouter([
       path:"/",
       element:(
       <>
-      <ScrollTop />
       <Layout />
       </>
       ),
